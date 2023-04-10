@@ -7,7 +7,7 @@
     <title>input de seleccion</title>
 </head>
 <body>
-    
+    <!-- Eleemntos de seleccion de radiobutton -->
     <h1>Elementos de seleccion</h1>
     <form>
         <h2>Genero</h2>
@@ -25,5 +25,72 @@
             <input type="radio" name="gender" value="desconocido">
         </label>
     </form>
+
+
+<!-- Eleemntos de seleccion de checkbox -->
+    <h2>Lenguajes que conoces</h2>
+    <label>
+        <input type="checkbox" name="Lenguajes" value="HTML">HTML
+    </label>
+
+    <label>
+        <input type="checkbox" name="Lenguajes" value="Css"> CSS
+    </label>
+
+    <label>
+        <input type="checkbox" name="Lenguajes" value="JavaScript"> JavaScript
+    </label>
+
+
+<!-- Elementos de lista -->
+<h1>ELementos seleccionables</h1>
+
+<form>
+    <label> selecciona
+        <select name="lenguajes" multiple >
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JavaScript">JavaScript</option>
+        </select>
+    </label>
+    
+    <label>
+        mascota
+        <select name="mascotas">
+            <optgroup label="4 Patas">
+            <option value="perro">perro</option>
+            <option value="Gato">Gato</option>
+            <option value="hamster">Hamster</option>
+            <option value="Conejo">Conejo</option>
+            </optgroup>
+
+           <optgroup label="pata">
+            <option value="loro">loro</option>
+            <option value="canario">canario</option>
+            <option value="serpiente">serpiente</option>
+            <option value="tarantula">tarantula</option>
+           </optgroup>
+        </select>
+    </label>
+</form>
+
+<!--Datalist-->
+ <form>
+    <label>
+        <input type="list" list="pets">
+        <datalist id="pets">
+            <option value="loro">loro</option>
+            <option value="canario">canario</option>
+            <option value="serpiente">serpiente</option>
+            <option value="tarantula">tarantula</option>
+            <option value="perro">perro</option>
+            <option value="Gato">Gato</option>
+            <option value="hamster">Hamster</option>
+            <option value="Conejo">Conejo</option>
+        </datalist>
+    </label>
+  
+ </form>
+ 
 </body>
 </html>
