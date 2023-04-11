@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atributos de formulario</title>
+</head>
+<body>
+    <form>
+        <input type="text" placeholder="Email" required disabled>
+        <input type="text" value="hola" placeholder="lo que tu quieras" readonly>
+        <label for="lista">La lisa</label>
+
+        <select id="lista" name="numbers"id>
+            <option value="one">one</option>
+            <option value="Two" selected>Two</option>
+        </select>
+        <label for="numero">el numero</label>
+        <input type="number" id="numero" min="5" max="10">
+        <label for="text">el texto</label>
+        <input type="text" id="text" minlength="2" maxlength="6" autofocus>
+        <label for="submit">subir</label>
+        <input type="submit" id="submit">
+    </form>
+</body>
+</html>
